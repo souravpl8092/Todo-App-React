@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Martel", serif;
+  font-weight: 400;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 0.6rem;
+  outline: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #2b394a;
+  color: white;
+  border: 0.5px solid rgba(0, 0, 0, 0.178);
+  border-radius: 5px;
+  margin: 15px;
+}
+button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: white;
+  transform: translateY(-2px);
+  color: black;
+}
+
+.add-todo-container input {
+  outline: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  width: 60%;
+}
+
+.add-todo-container {
+  padding: 1rem;
+  background-color: #c5d0dd;
+  text-align: center;
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.248);
+}
+
+.filter-form {
+  padding: 1rem;
+  background-color: #c5d0dd3b;
+  border-top: none;
+}
+.filter-form > label {
+  padding: 0.5rem;
+}
+
+.todo-list {
+  width: 60%;
+  margin: auto;
+}
+
+.todo-card {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.todo-card p {
+  font-weight: 600;
+  font-size: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+
+.edit-input{
+  outline: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  width: 90%;
+}
