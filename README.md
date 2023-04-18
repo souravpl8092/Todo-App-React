@@ -37,7 +37,7 @@ Todo apps also include features such as the ability to share tasks with others o
  </div>
 
 <div align="center"><h3 align="center">Deployed On:</h3>
-  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"  alt="vercel"/>
+  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=white"  alt="netlify"/>
 </div>
 </p>
 
